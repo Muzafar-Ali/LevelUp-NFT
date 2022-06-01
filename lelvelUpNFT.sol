@@ -1,7 +1,7 @@
 
 pragma solidity ^0.8.0;
 
-contract Test {
+contract TestNFT {
     using Counters for Counters.Counter;
     using Strings for uint256;
 
@@ -22,7 +22,7 @@ contract Test {
     Counters.Counter public _counter_LEVEL3_NFT;
     Counters.Counter public _counter_LEVEL4_NFT;
     
-    constructor() ERC721("Test", "Test") {
+    constructor() ERC721("TestNFT", "TestNFT") {
         _counter_LEVEL2_NFT._value = 200;
         _counter_LEVEL3_NFT._value = 300;
         _counter_LEVEL4_NFT._value = 400;

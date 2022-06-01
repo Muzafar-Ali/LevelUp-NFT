@@ -1,7 +1,7 @@
 
 pragma solidity ^0.8.0;
 
-contract Test is ERC721Enumerable, Ownable {
+contract Test {
     using Counters for Counters.Counter;
     using Strings for uint256;
 
